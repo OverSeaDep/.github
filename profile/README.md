@@ -15,7 +15,7 @@ We combine AI engineering, software development, cross-border trade, and supply-
 ## 我们做什么 / What We Do
 
 **市场研究与数字资产 / Market Research & Digital Assets**
-面向目标市场的产业出海研究：行业扫描、竞争样本与需求传导分析、发展阶段对标。所有结论与数字按「已确认 / 需核实 / 低置信度」标注并关联来源，形成可持续更新、可追溯、可解释的研究资产。
+面向目标市场的产业出海研究：行业扫描、竞争样本与需求传导分析、发展阶段对标。所有结论与数字按「已确认 / 需核实 / 低置信度」标注并关联来源，形成可持续更新、可追溯、可解释的研究资产。研究仓库（如全球 AI 市场分析等）以私有仓库维护，仅授权成员可见；公开仓库在下方单独列示。
 
 Industry-level go-global research for target markets: market scans, competitor sampling, demand-transmission analysis, and development-stage benchmarking. Every conclusion and figure is tagged *confirmed / needs verification / low confidence* with linked sources, forming updatable, traceable, explainable research assets.
 
