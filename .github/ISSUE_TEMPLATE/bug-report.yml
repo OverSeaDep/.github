@@ -1,0 +1,51 @@
+name: 错误报告 / Bug report
+description: 提交可复现的问题 / Report a reproducible problem
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述 / Problem description
+      description: 你做了什么、期望发生什么、实际发生了什么 / What you did, what you expected, and what actually happened
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 尽量给出最小可复现的步骤 / Provide minimal reproducible steps when possible
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果 / Expected behavior
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果 / Actual behavior
+  - type: textarea
+    id: environment
+    attributes:
+      label: 运行环境 / Environment
+      description: 操作系统、版本、依赖版本等 / OS, versions, dependency versions, etc.
+      placeholder: |
+        - OS: Windows 11
+        - Node.js / Python: ...
+        - 相关依赖: ...
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 日志与证据 / Logs & evidence
+      description: 脱敏后的报错信息、截图或最小复现文件。不要粘贴任何密钥/凭据 / Sanitized error output, screenshots, or a minimal repro. Never paste secrets/credentials.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认 / Confirmation
+      options:
+        - label: 已确认不包含任何敏感信息（凭据、客户数据、个人信息） / Confirmed this contains no sensitive information (credentials, customer data, personal data)
+          required: true

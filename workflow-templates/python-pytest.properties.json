@@ -1,0 +1,6 @@
+{
+  "name": "Python pytest",
+  "description": "Install Python dependencies and run the pytest suite on every push and pull request.",
+  "icon": "python",
+  "categories": ["Python"]
+}

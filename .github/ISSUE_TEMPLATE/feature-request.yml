@@ -1,0 +1,35 @@
+name: 功能建议 / Feature request
+description: 提出新功能或改进 / Suggest a new feature or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题 / Problem & use case
+      description: 当前缺什么，谁在什么场景下需要 / What is missing, who needs it, and in which scenario
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案 / Proposed behavior
+      description: 希望如何工作，包括输入、输出与边界 / How it should work: inputs, outputs, and boundaries
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 备选方案 / Alternatives considered
+      description: 已考虑的其他做法及其取舍 / Other approaches you considered and their trade-offs
+  - type: textarea
+    id: scope
+    attributes:
+      label: 影响范围 / Scope & constraints
+      description: 涉及的数据、模块、许可或合规约束（如有）/ Affected data, modules, or licensing/compliance constraints, if any
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认 / Confirmation
+      options:
+        - label: 已确认不包含任何敏感信息（凭据、客户数据、个人信息） / Confirmed this contains no sensitive information (credentials, customer data, personal data)
+          required: true

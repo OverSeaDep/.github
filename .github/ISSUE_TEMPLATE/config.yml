@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 组织支持 / Organization Support
+    url: https://github.com/OverSeaDep/.github/blob/main/SUPPORT.md
+    about: 支持渠道与常见问题说明 / Support channels and FAQ

@@ -1,0 +1,51 @@
+name: 数据纠错 / Data correction
+description: 修正研究报告或知识库中的企业、设备或事实数据 / Correct company, equipment, or factual data in research reports & knowledge bases
+body:
+  - type: markdown
+    attributes:
+      value: |
+        本模板适用于带结构化数据或研究结论的仓库（研究报告、知识库、数据表）。提交时请给出可核验的来源，证据等级按「已确认 / 需核实 / 低置信度」标注。
+        For repositories with structured data or research conclusions (market reports, knowledge bases, datasets). Provide verifiable sources and tag evidence as *confirmed / needs verification / low confidence*.
+  - type: textarea
+    id: record
+    attributes:
+      label: 目标数据记录 / Target record
+      description: 数据表、文件与字段 / Table/file and the field(s)
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前值 / Current value
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: 建议值 / Proposed value
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源与核验 / Source & verification
+      description: 官网/公开资料/政府或统计机构链接、访问与核验日期；电话/现场核实请说明方式，不要填写个人敏感信息 / Official/public/government/statistics links with access & verification dates; describe phone or on-site verification without personal sensitive data
+    validations:
+      required: true
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: 证据等级 / Evidence level
+      options:
+        - 已确认 / Confirmed
+        - 需核实 / Needs verification
+        - 低置信度 / Low confidence
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认 / Confirmation
+      options:
+        - label: 已确认不包含任何敏感信息（凭据、客户数据、个人信息） / Confirmed this contains no sensitive information (credentials, customer data, personal data)
+          required: true

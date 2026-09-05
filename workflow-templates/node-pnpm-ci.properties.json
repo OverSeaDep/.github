@@ -1,0 +1,6 @@
+{
+  "name": "Node.js / pnpm CI",
+  "description": "Install pnpm dependencies, build, and run the full test suite (pnpm build + pnpm test:all).",
+  "icon": "node",
+  "categories": ["JavaScript", "TypeScript"]
+}
